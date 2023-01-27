@@ -38,6 +38,7 @@ public class LoginSteps
     [Then(@"he should see (.*) books")]
     public async Task ThenHeShouldSeeBooks(int numOfBooks)
     {
+        await Task.Delay(3000);
         var locators = _page.GetByRole(AriaRole.Img, new() { Name = "image" });
         await Assertions.Expect(locators).ToHaveCountAsync(numOfBooks);
     }

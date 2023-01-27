@@ -14,6 +14,7 @@ public class AssertBookReferencesAndChooceOneSteps
     [Then(@"he chooses the ""([^""]*)"" book")]
     public async Task ThenHeChoosesTheBook(string title)
     {
+        await Task.Delay(3000);
         await _page.GetByRole(AriaRole.Link, new() { Name = title }).ClickAsync();
     }
 
