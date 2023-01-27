@@ -31,6 +31,6 @@ jobs:
       env:
         users.testUser.password: ${{ secrets.TESTUSERPASS }}
     - name: Install Browsers
-      run: pwsh QaTools/bin/Debug/net7.0/playwright.ps1 install
+      run: pwsh QaTools/bin/Debug/net7.0/playwright.ps1 install --with-deps
     - name: Test
       run: dotnet test --no-build --verbosity normal
