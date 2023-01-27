@@ -29,7 +29,7 @@ jobs:
       with:
         files: 'QaTools/appsettings.json'
       env:
-        testUser.password: ${{ secrets.TESTUSERPASS }}
+        users.testUser.password: ${{ secrets.TESTUSERPASS }}
     - name: Install Browsers
       run: pwsh QaTools/bin/Debug/net7.0/playwright.ps1 install
     - name: Test
