@@ -1,0 +1,9 @@
+﻿global using BoDi;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Playwright;
+global using System.IO;
+global using System.Reflection;
+global using System.Threading.Tasks;
+global using System;
+global using TechTalk.SpecFlow;
+global using NUnit.Framework; 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaTools", "QaTools\QaTools.csproj", "{920EFC9B-97F6-47D8-A33F-B0799C0565FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{920EFC9B-97F6-47D8-A33F-B0799C0565FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920EFC9B-97F6-47D8-A33F-B0799C0565FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920EFC9B-97F6-47D8-A33F-B0799C0565FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920EFC9B-97F6-47D8-A33F-B0799C0565FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6D32B9A-7145-41E8-ACC0-D099B20BF0F4}
+	EndGlobalSection
+EndGlobal
