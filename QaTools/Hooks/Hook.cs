@@ -1,6 +1,6 @@
 using QaTools.Options;
 
-//[assembly:Parallelizable(ParallelScope.Fixtures)]
+[assembly: Parallelizable(ParallelScope.Fixtures)]
 
 namespace QaTools.Hooks;
 
