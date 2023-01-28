@@ -39,4 +39,4 @@ jobs:
       if: failure()
       with:
         name: trace-view
-        path: downloads QaTools/bin/Debug/net7.0/trace.zip
+        path: QaTools/bin/Debug/net7.0/trace.zip
