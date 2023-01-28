@@ -98,6 +98,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.When("he types the username and password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 9
+ testRunner.Then("he should see 2 books", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
 #line 10
  testRunner.Then("he logs out", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
