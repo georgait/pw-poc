@@ -18,17 +18,24 @@ internal static class ServiceRegistration
             Headless = ctxOptions.Headless
         });
 
+        var viewportSize = new ViewportSize
+        {
+            Width = 1280,
+            Height = 1024
+        };
+
         IBrowserContext context;
         if (!string.IsNullOrEmpty(ctxOptions.VideosDir))
         {
             context = await browser.NewContextAsync(new()
             {
-                RecordVideoDir = ctxOptions.VideosDir
+                RecordVideoDir = ctxOptions.VideosDir,
+                ViewportSize = viewportSize
             });
         }
         else
         {
-            context = await browser.NewContextAsync();
+            context = await browser.NewContextAsync(new() { ViewportSize = viewportSize });
         }
 
         if (ctxOptions.TraceViewEnabled)
